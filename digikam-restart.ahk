@@ -5,7 +5,8 @@ SendMode Input
 SetBatchLines, -1
 
 processName := "digikam.exe"
-timeoutSeconds := 3600   ; 60 minutes timeout
+; timeoutSeconds := 3600   ; 60 minutes timeout
+timeoutSeconds := 600   ; 5 minutes timeout
 
 ; Check if digikam.exe is running
 Process, Exist, %processName%
